@@ -1,0 +1,12 @@
+<?php
+
+$_i=0,$_j=0,$_sum=1;
+while($sum<7)
+{
+echo $_sum;
+$_i=$_j;
+$_j=$_sum;
+$_sum=$_i+$_j;
+}
+
+?>
